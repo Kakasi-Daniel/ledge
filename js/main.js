@@ -1,7 +1,7 @@
 // Initialize and add the map
 function initMap() {
   // Your location
-  const loc = { lat: 46.829940, lng: 23.736440 }; 
+  const loc = { lat: 45.829940, lng: 23.736440 }; 
   // Centered map on location
   const map = new google.maps.Map(document.querySelector('.map'), {
     zoom: 14,
